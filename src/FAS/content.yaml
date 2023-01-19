@@ -15,7 +15,6 @@ trackers:
       source_project: ALM-PROD-CARIAD TC
       source_tracker: Stakeholder Needs
 
-
   - name: System Requirements
     allow_upstream_to_other_project: True
     source:
