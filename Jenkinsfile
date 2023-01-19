@@ -36,7 +36,6 @@ pipeline {
             steps {
                 sh "echo 'Configuration'"
                 getChangeFiles()
-                getChangeFiles()
             }
         }
 
