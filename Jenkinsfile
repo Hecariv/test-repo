@@ -35,8 +35,8 @@ pipeline {
             }
             steps {
                 sh "echo 'Configuration'"
-                configureProject(currentBuild)
-                configureProject()
+                getChangeFiles()
+                getChangeFiles()
             }
         }
 
