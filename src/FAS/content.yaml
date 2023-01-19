@@ -1,0 +1,27 @@
+---
+version_of_config: 1
+# ---------- Please do not change anything above this line! ----------
+
+# codebeamer project name and project category
+project: FAS-PROD-PPE_1_2 TC
+category: FAS
+
+# trackers within the codebeamer project
+trackers:
+
+  - name: Stakeholder Needs
+    allow_upstream_to_other_project: True
+    source:
+      source_project: ALM-PROD-CARIAD TC
+      source_tracker: Stakeholder Needs
+
+  - name: System Requirements
+    allow_upstream_to_other_project: True
+    source:
+      source_project: ALM-PROD-CARIAD TC
+      source_tracker: System Requirements
+
+  - name: Changelog
+    source:
+      source_project: ALM-PROD-CARIAD TC
+      source_tracker: Changelog
