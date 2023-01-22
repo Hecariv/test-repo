@@ -23,7 +23,7 @@ node{
                         currentBuild.description = "${scmVars.GIT_COMMIT}"
 
             }
-    
+
 
     stage('Configuration') {
             sh "echo 'Configuration'"
