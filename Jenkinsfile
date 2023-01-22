@@ -27,7 +27,7 @@ node{
 
     stage('Configuration') {
             sh "echo 'Configuration'"
-          //  configureProject()
+            configureProject()
         }
 
 }
